@@ -1,0 +1,27 @@
+#Certifications img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+}
+#Certifications div {
+    position: relative;
+    margin: 10px;
+    display: block;
+}
+#Certifications ul {
+    list-style: none;
+    width: 50%;
+    position: relative;
+    background-color: black;
+}
+#Certifications a {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+}
+
+* {
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+}
