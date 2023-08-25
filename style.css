@@ -33,6 +33,7 @@ body {
             rgb(25, 25, 100),
             rgb(146, 146, 177));
     margin: 0px;
+    padding: 0px;
 }
 
 h1.title,
@@ -45,6 +46,7 @@ h5.title {
 }
 * {
     font-family: "Courier New", Courier, monospace;
+    position: relative;
 }
 
 nav li {
@@ -63,9 +65,11 @@ nav ul {
     margin: 0;
     position: fixed;
     overflow: hidden;
-    display: inline;
+    display: inline-block;
     width: 100%;
     background-color: azure;
+    top: 0;
+        z-index: 100;
 }
 
 nav h4 {
