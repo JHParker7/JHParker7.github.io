@@ -1,48 +1,77 @@
 #Certifications img {
-    max-width: 100px;
-    max-height: 100px;
-    margin: 0px;
-    float: right;
-    display: block;
+width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 #Certifications div {
-    margin:10px;
+margin: 10px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 122));
+    border: 15px ridge rgb(255, 255, 255);
     text-align: center;
-    background-color: black;
-    border: 5px solid white;
-}
+position: relative;
 
-#Certifications ul {
-    list-style: none;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 10%;
-    margin: 0;
+display: inline-block;
 }
 
 #Certifications a {
-    max-width: 100px;
-    max-height: 100px;
+color: white;
+    width: 200px;
+    height: 50px;
     text-align: center;
     display: block;
-    border: 10px;
-}
-
-#Certifications li {
-    float: left;
-    text-align: center;
-}
-#Certifications * {
-    display: inline-block;
-}
-
-#Certifications .title h1 h2 h3 h4 h5 {
-    display: block;
-    margin-left: 100%;
+padding: 10px;
+    margin: 0px;
 }
 
 body {
     color: rgb(0, 145, 145);
-    background-image: linear-gradient(45deg,rgb(25, 25, 100),rgb(146, 146, 177));
+    background-image: linear-gradient(45deg,
+            rgb(25, 25, 100),
+            rgb(146, 146, 177));
+    margin: 0px;
+}
+
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title {
+    text-decoration: underline;
+    text-align: center;
+}
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    overflow: hidden;
+    display: inline;
+    width: 100%;
+    background-color: azure;
+}
+
+nav h4 {
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
 }
