@@ -56,6 +56,10 @@ nav li {
     padding-left: auto;
     padding-right: auto;
     display: block;
+    height: 70px;
+        border: solid black;
+        border-left: 1px;
+        border-top: 1px;
 }
 
 nav ul {
@@ -78,4 +82,8 @@ nav h4 {
     text-align: center;
     padding-left: 16px;
     padding-right: 16px;
+}
+header {
+    background-color: rgba(0, 55, 255, 0.272);
+    color: white;
 }
