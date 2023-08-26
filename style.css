@@ -73,7 +73,7 @@ nav ul {
     width: 100%;
     background-color: azure;
     top: 0;
-        z-index: 100;
+        z-index: 20;
 }
 
 nav h4 {
@@ -84,6 +84,40 @@ nav h4 {
     padding-right: 16px;
 }
 header {
-    background-color: rgba(0, 55, 255, 0.272);
+    background-image: radial-gradient(azure,rgb(92, 92, 138));
     color: white;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    z-index: 100;
+    justify-content: center;
 }
+
+@media screen and (min-width: 600px){
+    header div {
+    font-size: 50px;
+    color: darkblue;
+    width: auto;
+    margin: auto;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}}
+
+@media screen and (max-width: 600px){
+    header div {
+    font-size: 30px;
+    color: darkblue;
+    width: auto;
+    margin: auto;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}}
