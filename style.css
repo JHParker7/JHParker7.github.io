@@ -156,10 +156,27 @@ ul {
 
 main ul * {
     padding: 10px;
-    font-size: 20px;
 }
 
 main h4 {
     padding: 20px;
-    font-size: 40px;
+}
+@media screen and (min-width: 600px){
+    main ul * {
+        font-size: 20px;
+    }
+    
+    main h4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main ul * {
+        font-size: 10px;
+    }
+    
+    main h4 {
+        font-size: 20px;
+    }
 }
