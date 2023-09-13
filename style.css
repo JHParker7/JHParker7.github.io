@@ -20,9 +20,10 @@ display: inline-block;
 #Certifications h5{
     font-size: 30px;
 }
-
+main a {
+    color: white;
+}
 #Certifications a {
-color: white;
     width: 200px;
     height: 50px;
     text-align: center;
@@ -52,6 +53,7 @@ h5.title {
 * {
     font-family: "Courier New", Courier, monospace;
     position: relative;
+    text-align: center;
 }
 
 nav li {
@@ -138,7 +140,7 @@ header {
 }}
 
 h3.section {
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     font-weight: 800;
     background-color: azure;
@@ -146,3 +148,18 @@ h3.section {
     top: 33px;
 }
 
+ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul * {
+    padding: 10px;
+    font-size: 20px;
+}
+
+main h4 {
+    padding: 20px;
+    font-size: 40px;
+}
