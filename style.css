@@ -32,13 +32,14 @@ padding: 10px;
     margin: 0px;
 }
 
-body {
+main {
     color: rgb(0, 255, 191);
-    background-image: linear-gradient(45deg,
+    background-image: linear-gradient(0deg,
             rgb(25, 25, 100),
             rgb(146, 146, 177));
     margin: 0px;
     padding: 0px;
+    display: inline-block;
 }
 
 h1.title,
@@ -97,7 +98,7 @@ nav h4 {
     transform: translate(-50%, -50%);
 }
 header {
-    background-image: radial-gradient(azure,rgb(92, 92, 138));
+    background-image: radial-gradient(closest-side,rgb(0, 0, 122) 10%,rgba(146, 146, 177) 100%);
     color: white;
     height: 100vh;
     position: relative;
@@ -108,7 +109,6 @@ header {
     margin: 0;
     justify-content: center;
     border: 0;
-    border-bottom: 4px solid rgb(92, 92, 138);
 }
 
 @media screen and (min-width: 600px){
@@ -190,4 +190,9 @@ div#inner {
     border-right: 5px solid darkblue;
     border-left: 5px solid lightblue;
     border-bottom: 5px solid lightblue;
+}
+
+body {
+    margin: 0px;
+    background-color: rgba(146, 146, 177);
 }
