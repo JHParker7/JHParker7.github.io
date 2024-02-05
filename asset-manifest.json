@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4203e6ac.css",
-    "main.js": "/static/js/main.6693ebc4.js",
-    "static/js/787.b3865fd3.chunk.js": "/static/js/787.b3865fd3.chunk.js",
+    "main.css": "/static/css/main.fed7dc48.css",
+    "main.js": "/static/js/main.56fedd35.js",
+    "static/js/787.96545737.chunk.js": "/static/js/787.96545737.chunk.js",
     "static/media/three-icon.png": "/static/media/three-icon.7c862b1bad8407d307b0.png",
     "static/media/React-icon.svg.png": "/static/media/React-icon.svg.b76698cf6e821b8a8758.png",
+    "static/media/aws-cloud-quest-solutions-architect.png": "/static/media/aws-cloud-quest-solutions-architect.ce50cafc6b9c0690e499.png",
+    "static/media/aws-cloud-quest-machine-learning.png": "/static/media/aws-cloud-quest-machine-learning.a53f431fd36f6f084ed6.png",
+    "static/media/aws-cloud-quest-serverless-developer.png": "/static/media/aws-cloud-quest-serverless-developer.a5dab0faf9fd7602bf8a.png",
+    "static/media/aws-cloud-quest-cloud-practitioner.png": "/static/media/aws-cloud-quest-cloud-practitioner.d2f88857d1f1e6f5a1b6.png",
+    "static/media/d7fc595f-3a4f-4076-b0d8-ea869a8b9b2e.png": "/static/media/d7fc595f-3a4f-4076-b0d8-ea869a8b9b2e.7a21e3a5eaae1d5d8feb.png",
+    "static/media/b895d889-6dd0-4041-b7c3-28dd0f375cd0.png": "/static/media/b895d889-6dd0-4041-b7c3-28dd0f375cd0.2f998b8c43f3814f47b2.png",
+    "static/media/57bc02f3-d1f9-45ed-9782-b45192676ca9.png": "/static/media/57bc02f3-d1f9-45ed-9782-b45192676ca9.b319641ded815e28e4d1.png",
+    "static/media/80d9954b-66f1-4e92-9a4b-a0a7e434fa3c.png": "/static/media/80d9954b-66f1-4e92-9a4b-a0a7e434fa3c.36d4b00d0c8a3826715a.png",
+    "static/media/488bce01-3e93-4572-b2c5-102924b6c85f.png": "/static/media/488bce01-3e93-4572-b2c5-102924b6c85f.5557f3c3c0c7e3e6c4cd.png",
+    "static/media/fe80ea64-ebd6-4d96-93d9-05156709a049.png": "/static/media/fe80ea64-ebd6-4d96-93d9-05156709a049.a9f64f8d15d025df7e84.png",
+    "static/media/213afba9-287e-4a9a-a073-f91919133f1a.png": "/static/media/213afba9-287e-4a9a-a073-f91919133f1a.7d3b741a267448993aa4.png",
     "index.html": "/index.html",
-    "main.4203e6ac.css.map": "/static/css/main.4203e6ac.css.map",
-    "main.6693ebc4.js.map": "/static/js/main.6693ebc4.js.map",
-    "787.b3865fd3.chunk.js.map": "/static/js/787.b3865fd3.chunk.js.map"
+    "main.fed7dc48.css.map": "/static/css/main.fed7dc48.css.map",
+    "main.56fedd35.js.map": "/static/js/main.56fedd35.js.map",
+    "787.96545737.chunk.js.map": "/static/js/787.96545737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4203e6ac.css",
-    "static/js/main.6693ebc4.js"
+    "static/css/main.fed7dc48.css",
+    "static/js/main.56fedd35.js"
   ]
 }
